@@ -8,6 +8,7 @@ f = open('list.txt', 'r')
 
 for line in f:
 	for filename in os.listdir(src):
+		# use rstrip() to remove \n and whitespace.
 		if line.rstrip() == filename:				
 			print('yes ' + filename)			
 			shutil.copy(src + '\\' + filename, dst + '\\' + filename);
