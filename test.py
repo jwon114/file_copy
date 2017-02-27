@@ -11,8 +11,3 @@ with open('list.txt', 'r') as f:
 			if line.rstrip() == filename:				
 				print(filename + ' Copied to Output directory')			
 				shutil.copy(src + '\\' + filename, dst + '\\' + filename);
-<<<<<<< HEAD
-			
-=======
-			
->>>>>>> 41bcb0ed792f5c889da6210fabf42cc46a54be6a
