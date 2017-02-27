@@ -12,5 +12,3 @@ for line in f:
 		if line.rstrip() == filename:				
 			print('yes ' + filename)			
 			shutil.copy(src + '\\' + filename, dst + '\\' + filename);
-			
-f.close();
