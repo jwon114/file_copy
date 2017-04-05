@@ -1,3 +1,5 @@
+# Reads from a csv file and copies from source to destination
+
 import os, shutil, time, csv
 
 start = time.time()
