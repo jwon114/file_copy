@@ -6,8 +6,8 @@ from datetime import datetime
 
 SRC = 'L:\\';
 #SRC = 'C:\\Slainte_Data\\Python\\python_file_copy\\';
-#DST = 'C:\\Slainte_Data\\Python\\python_file_copy\\vndocsprd.txt'
-DST = 'C:\\Slainte_Data\\Python\\python_file_copy\\test.txt'
+#DST = 'C:\\Slainte_Data\\Python\\Data\\vndocsprd.txt'
+DST = 'C:\\Slainte_Data\\Python\\Data\\test.txt'
 
 with open(DST, 'a', 1, newline='') as csv_output:
     for file in os.scandir(SRC):        

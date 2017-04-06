@@ -4,9 +4,9 @@
 from datetime import datetime
 import csv
 
-SRC = 'C:\\Slainte_Data\\Python\\python_file_copy\\vndocsprd.txt'
-#SRC = 'C:\\Slainte_Data\\Python\\python_file_copy\\get_mrn_ep_test_input.txt'
-DST = 'C:\\Slainte_Data\\Python\\python_file_copy\\vndocsprd_output.txt'
+SRC = 'C:\\Slainte_Data\\Python\\Data\\vndocsprd.txt'
+#SRC = 'C:\\Slainte_Data\\Python\\Data\\get_mrn_ep_test_input.txt'
+DST = 'C:\\Slainte_Data\\Python\\Data\\vndocsprd_output.txt'
 
 with open(SRC, 'r', 1, newline='') as csv_input:
     csv_in = csv.reader(csv_input, delimiter=',')

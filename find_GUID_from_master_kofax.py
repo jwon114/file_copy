@@ -3,11 +3,11 @@
 
 import csv
 
-#SRC1 = 'C:\\Slainte_Data\\Python\\python_file_copy\\vndocsprd_output.txt';
-SRC1 = 'C:\\Slainte_Data\\Python\\python_file_copy\\vndocsprd_output_TEST.txt';
-#SRC2 = 'C:\\Slainte_Data\\Python\\python_file_copy\\mrn_ep_missing_from_results.txt';
-SRC2 = 'C:\\Slainte_Data\\Python\\python_file_copy\\mrn_ep_missing_from_results_TEST.txt';
-DST = 'C:\\Slainte_Data\\Python\\python_file_copy\\mrn_ep_missing_from_results_input.csv';
+#SRC1 = 'C:\\Slainte_Data\\Python\\Data\\vndocsprd_output.txt';
+SRC1 = 'C:\\Slainte_Data\\Python\\Data\\vndocsprd_output_TEST.txt';
+#SRC2 = 'C:\\Slainte_Data\\Python\\Data\\mrn_ep_missing_from_results.txt';
+SRC2 = 'C:\\Slainte_Data\\Python\\Data\\mrn_ep_missing_from_results_TEST.txt';
+DST = 'C:\\Slainte_Data\\Python\\Data\\mrn_ep_missing_from_results_input.csv';
 
 results_set = []
 vndocsprod_set = []
